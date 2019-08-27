@@ -1,0 +1,38 @@
+body {
+    background-color: aquamarine;
+}
+
+h2 {
+ color: orange;
+}
+
+/* only the paragraphs inside the article */
+article > p {
+ background-color: darkblue;
+}
+
+/* all sibilings */
+div ~ p {
+    background-color: teal;
+}
+
+/* first sibiling after div */
+div + p {
+    background-color: pink;
+}
+
+a {
+    color: green;
+}
+
+footer {
+    background-color: green;
+}
+
+footer a {
+    color:white;
+}
+
+.active {
+    color: blanchedalmond;
+}
